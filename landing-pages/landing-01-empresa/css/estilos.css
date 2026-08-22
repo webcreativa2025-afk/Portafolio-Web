@@ -1,0 +1,190 @@
+
+/* =========================
+   RESET GENERAL
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background-color: #111827;
+    padding: 20px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    min-height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: #dbeafe;
+}
+
+.contenido {
+    max-width: 800px;
+    padding: 40px;
+}
+
+.contenido h2 {
+    font-size: 50px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.contenido p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   BOTÓN
+========================= */
+
+button {
+    background-color: #2563eb;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 15px 30px;
+
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   SERVICIOS
+========================= */
+
+.servicios {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.servicios h2 {
+    font-size: 40px;
+    color: #1e3a8a;
+    margin-bottom: 50px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: white;
+
+    width: 300px;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta h3 {
+    color: #2563eb;
+    font-size: 24px;
+}
+
+.tarjeta p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+/* =========================
+   CONTACTO
+========================= */
+
+.contacto {
+    padding: 80px 30px;
+
+    text-align: center;
+
+    background-color: #111827;
+    color: white;
+}
+
+.contacto h2 {
+    font-size: 40px;
+}
+
+.contacto p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #030712;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
