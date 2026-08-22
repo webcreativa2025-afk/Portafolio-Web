@@ -1,0 +1,525 @@
+/* =========================
+        RESET GENERAL
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* =========================
+        ESTILOS GENERALES
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* =========================
+        HEADER
+========================= */
+
+header {
+    background-color: #7c2d12;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 32px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #fbbf24;
+}
+
+/* =========================
+        HERO
+========================= */
+
+.hero {
+    min-height: 600px;
+    background-color: #fed7aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+/* =========================
+        CONTENIDO HERO
+========================= */
+
+.hero .contenido {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0 auto 30px;
+    max-width: 600px;
+}
+
+.hero .boton {
+    background-color: #7c2d12;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero .boton:hover {
+    background-color: #9a3412;
+    transform: translateY(-3px);
+}
+
+.hero .boton:active {
+    transform: translateY(1px);
+}
+
+/* =========================
+        MENÚ
+========================= */
+
+.menu {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 100%;
+    max-width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    min-height: 250px;
+    cursor: pointer;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px);
+}
+
+.tarjeta h3 {
+    font-size: 24px;
+    margin: 0 0 15px;
+}
+
+.tarjeta p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+
+.tarjeta span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7c2d12;
+    display: block;
+}
+
+/* =========================
+        NOSOTROS
+========================= */
+
+.nosotros {
+    background-color: #fff7ed;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.nosotros .contenido {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nosotros h2 {
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+
+.nosotros p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* =========================
+        CONTACTO
+========================= */
+
+.contacto {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.contacto h2 {
+    font-size: 40px;
+    margin: 0 0 15px;
+}
+
+.contacto p {
+    font-size: 18px;
+    margin: 0 0 30px;
+}
+
+.contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacto label {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: -8px;
+}
+
+.contacto input,
+.contacto textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    transition: border-color 0.3s ease;
+    width: 100%;
+}
+
+.contacto textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.contacto input:focus,
+.contacto textarea:focus {
+    outline: none;
+    border-color: #7c2d12;
+}
+
+.contacto button {
+    background-color: #7c2d12;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    width: 100%;
+}
+
+.contacto button:hover {
+    background-color: #9a3412;
+    transform: translateY(-2px);
+}
+
+.contacto button:active {
+    transform: translateY(1px);
+}
+
+.contacto input::placeholder,
+.contacto textarea::placeholder {
+    color: #888;
+}
+
+/* =========================
+        FOOTER
+========================= */
+
+footer {
+    background-color: #7c2d12;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* =========================
+        RESPONSIVE 768px
+========================= */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px 30px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    .hero {
+        min-height: 500px;
+        padding: 40px 30px;
+    }
+
+    .hero h2 {
+        font-size: 42px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .menu {
+        padding: 60px 30px;
+    }
+
+    .menu h2 {
+        font-size: 34px;
+    }
+
+    .tarjeta {
+        padding: 25px;
+    }
+
+    .nosotros {
+        padding: 60px 30px;
+    }
+
+    .nosotros h2 {
+        font-size: 34px;
+    }
+
+    .nosotros p {
+        font-size: 17px;
+    }
+
+    .contacto {
+        padding: 60px 30px;
+    }
+
+    .contacto h2 {
+        font-size: 34px;
+    }
+
+    .contacto p {
+        font-size: 17px;
+    }
+
+    .contacto form {
+        max-width: 500px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+
+/* =========================
+        RESPONSIVE 480px
+========================= */
+
+@media (max-width: 480px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav {
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .hero {
+        min-height: 450px;
+        padding: 60px 20px;
+    }
+
+    .hero h2 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero .boton {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .menu {
+        padding: 50px 20px;
+    }
+
+    .menu h2 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .tarjeta {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .tarjeta h3 {
+        font-size: 20px;
+    }
+
+    .tarjeta p {
+        font-size: 14px;
+    }
+
+    .tarjeta span {
+        font-size: 17px;
+    }
+
+    .tarjetas {
+        gap: 25px;
+    }
+
+    .nosotros {
+        padding: 45px 20px;
+    }
+
+    .nosotros h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .nosotros p {
+        font-size: 16px;
+        max-width: 95%;
+        margin: 0 auto 10px;
+    }
+
+    .contacto {
+        padding: 45px 20px;
+    }
+
+    .contacto h2 {
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+
+    .contacto label {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .contacto p {
+        font-size: 15px;
+        max-width: 90%;
+        margin: 0 auto 25px;
+    }
+
+    .contacto button {
+        width: 100%;
+        max-width: 350px;
+        margin: 5px auto 0;
+        font-size: 15px;
+        padding: 13px;
+    }
+
+    .contacto form {
+        width: 100%;
+        gap: 12px;
+        max-width: 400px;
+    }
+
+    .contacto input,
+    .contacto textarea {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+        border-radius: 6px;
+    }
+
+    .contacto textarea {
+        min-height: 130px;
+    }
+
+    footer {
+        padding: 15px 20px;
+    }
+
+    footer p {
+        font-size: 14px;
+        line-height: 1.5;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .contacto input::placeholder,
+    .contacto textarea::placeholder {
+        font-size: 14px;
+        color: #888;
+    }
+}
