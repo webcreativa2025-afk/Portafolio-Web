@@ -1,0 +1,327 @@
+/* =========================
+        RESET GENERAL
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* =========================
+        HEADER
+========================= */
+
+header {
+    background-color: #111827;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+/* =========================
+            HERO
+========================= */
+.hero {
+    min-height: 650px;
+    background-color: #dbeafe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.contenido {
+    text-align: center;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.contenido h2 {
+    font-size: 50px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.contenido p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.3px;
+    margin-top: 0;
+}
+
+/* =========================
+            BOTONES
+========================= */
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 16px 35px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+}
+
+/* =========================
+        SERVICIOS
+========================= */
+
+.servicios {
+    padding: 120px 50px;
+}
+
+.servicios h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.tarjeta {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tarjeta h3 {
+    font-size: 25px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.tarjeta p {
+    font-size: 17px;
+    color: #555;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    margin: 0 auto;
+    max-width: 250px;
+}
+.tarjeta:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.contacto {
+    padding: 100px 50px;
+    text-align: center;
+    background-color: #dbeafe;
+}
+
+.contacto h2 {
+    font-size: 40px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.contacto p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+    margin-top: 0;
+    line-height: 1.6;
+}
+
+.contacto button {
+    margin-top: 15px;
+    padding: 15px 35px;
+    font-size: 18px;
+}
+
+.contacto button:hover {
+    transform: scale(1.05);
+}
+
+/* =========================
+        FOOTER
+========================= */
+
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-top: 3px solid #2563eb;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #d1d5db;
+}
+
+/* =========================
+    RESPONSIVE - TABLET
+========================= */
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .contenido h2 {
+        font-size: 36px;
+    }
+
+    .contenido p {
+        font-size: 18px;
+    }
+
+    .hero {
+        min-height: 500px;
+        padding: 40px 20px;
+    }
+
+    .servicios {
+        padding: 60px 20px;
+    }
+
+    .servicios h2 {
+        font-size: 32px;
+    }
+
+    .contacto {
+        padding: 60px 20px;
+    }
+
+    .contacto h2 {
+        font-size: 32px;
+    }
+
+    .contacto p {
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    button {
+        padding: 13px 25px;
+        font-size: 16px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .tarjeta {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+/* =========================
+    RESPONSIVE - CELULAR
+========================= */
+
+@media (max-width: 480px) {
+    .contenido h2 {
+        font-size: 30px;
+    }
+    .servicios h2 {
+        font-size: 28px;
+    }
+
+    .contacto h2 {
+        font-size: 28px;
+    }
+
+    .contenido p {
+        font-size: 16px;
+    }
+    .contacto p {
+        font-size: 16px;
+    }
+
+    .hero {
+        min-height: 450px;
+        padding: 30px 15px;
+    }
+
+    .servicios {
+        padding: 50px 15px;
+    }
+    .contacto {
+        padding: 50px 15px;
+    }
+    .tarjeta {
+        padding: 25px;
+    }
+}
+
+
+
