@@ -34,6 +34,7 @@ header h1 {
 
 header h1:hover {
     color: #60a5fa;
+    transform: scale(1.05);
 }
 
 nav {
