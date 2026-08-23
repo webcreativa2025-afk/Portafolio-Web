@@ -337,6 +337,7 @@ html {
     text-decoration: none;
     border-radius: 25px;
     transition: 0.3s;
+    animation: aparecer 0.8s ease;
 }
 
 .boton-hero:hover {
