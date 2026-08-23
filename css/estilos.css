@@ -246,8 +246,9 @@ footer p {
     }
 
     main > section:first-child p {
-        font-size: 16px;
-    }
+    font-size: 16px;
+    line-height: 1.5;
+}
 
     main > section:nth-child(2) {
         padding: 50px 15px;
