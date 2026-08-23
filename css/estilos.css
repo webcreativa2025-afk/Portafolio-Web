@@ -111,12 +111,12 @@ main > section:nth-child(2) h2 {
 .proyectos > div {
     background-color: white;
     max-width: 350px;
+    width: 100%;
     margin: 0 auto;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
-        width: 100%;       
 }
 
 .proyectos > div:hover {
