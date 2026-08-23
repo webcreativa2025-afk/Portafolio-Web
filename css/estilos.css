@@ -250,6 +250,23 @@ footer p {
     .proyectos > div {
         padding: 25px;
     }
+            #contacto {
+        padding: 50px 15px;
+    }
+
+    #contacto h2 {
+        font-size: 30px;
+    }
+
+    #contacto p {
+        font-size: 16px;
+    }
+
+    #contacto a {
+        width: 100%;
+        max-width: 300px;
+    }
+        
 }
 
 /* =========================
