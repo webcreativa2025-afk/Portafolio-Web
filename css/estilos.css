@@ -212,9 +212,9 @@ footer p {
         font-size: 34px;
     }
 
-    .proyectos {
-        gap: 25px;
-    }
+  .proyectos {
+    gap: 30px;
+}
 
     .proyectos > div {
         width: 100%;
