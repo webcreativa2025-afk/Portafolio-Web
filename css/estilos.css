@@ -105,7 +105,7 @@ main > section:nth-child(2) h2 {
 .proyectos {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 35px;
     flex-wrap: wrap;
 }
 
