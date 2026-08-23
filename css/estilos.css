@@ -163,3 +163,51 @@ footer p {
     font-size: 16px;
     color: #d1d5db;
 }
+
+/* =========================
+        RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main > section:first-child {
+        min-height: 450px;
+        padding: 50px 20px;
+    }
+
+    main > section:first-child h2 {
+        font-size: 38px;
+    }
+
+    main > section:first-child p {
+        font-size: 18px;
+    }
+
+    main > section:nth-child(2) {
+        padding: 60px 20px;
+    }
+
+    main > section:nth-child(2) h2 {
+        font-size: 34px;
+    }
+
+    .proyectos {
+        gap: 25px;
+    }
+
+    .proyectos > div {
+        width: 100%;
+        max-width: 450px;
+    }
+}
