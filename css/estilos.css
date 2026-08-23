@@ -281,6 +281,11 @@ footer p {
     padding: 14px 30px;
 }
         
+.boton-hero {
+    width: 100%;
+    max-width: 300px;
+}
+        
 }
 
 /* =========================
