@@ -150,6 +150,7 @@ main > section:nth-child(2) a {
 main > section:nth-child(2) a:hover {
     background-color: #1d4ed8;
     transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
 }
 
 /* =========================
