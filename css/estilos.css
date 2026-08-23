@@ -118,6 +118,7 @@ main > section:nth-child(2) h2 {
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
+    animation: aparecer 0.8s ease;
 }
 
 .proyectos > div:hover {
