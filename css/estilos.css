@@ -271,8 +271,9 @@ footer p {
     }
 
     #contacto p {
-        font-size: 16px;
-    }
+    font-size: 16px;
+    line-height: 1.5;
+}
 
     #contacto a {
         width: 100%;
