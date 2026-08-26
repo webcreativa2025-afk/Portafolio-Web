@@ -127,6 +127,7 @@ main > section:nth-child(2) h2 {
     height: 180px;
     object-fit: cover;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .proyectos > div:hover {
