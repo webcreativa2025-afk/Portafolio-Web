@@ -53,6 +53,11 @@ nav a:hover {
     color: #60a5fa;
 }
 
+nav a:focus {
+    outline: 2px solid #60a5fa;
+    outline-offset: 4px;
+}
+
 /* =========================
         HERO
 ========================= */
@@ -107,6 +112,8 @@ nav a:hover {
     justify-content: center;
     gap: 35px;
     flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .proyecto-card {
