@@ -168,6 +168,28 @@ main > section:nth-child(2) a:hover {
 }
 
 /* =========================
+        BOTÓN HERO
+========================= */
+
+.boton-hero {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 30px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+    animation: aparecer 0.8s ease;
+}
+
+.boton-hero:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+}
+
+/* =========================
         CONTACTO
 ========================= */
 
@@ -344,27 +366,6 @@ footer p {
 
 html {
     scroll-behavior: smooth;
-}
-/* =========================
-        BOTÓN HERO
-========================= */
-
-.boton-hero {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 14px 30px;
-    background-color: #2563eb;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    transition: 0.3s;
-    animation: aparecer 0.8s ease;
-}
-
-.boton-hero:hover {
-    background-color: #1d4ed8;
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
 }
 
 /* =========================
