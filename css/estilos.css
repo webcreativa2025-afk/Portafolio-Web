@@ -57,7 +57,7 @@ nav a:hover {
         HERO
 ========================= */
 
-main > section:first-child {
+#inicio {
     min-height: 550px;
     background-color: #dbeafe;
     display: flex;
@@ -68,14 +68,14 @@ main > section:first-child {
     padding: 60px 20px;
 }
 
-main > section:first-child h2 {
+#inicio h2 {
     font-size: 48px;
     color: #1e3a8a;
     margin: 0 0 20px;
     max-width: 800px;
 }
 
-main > section:first-child p {
+#inicio p {
     font-size: 20px;
     line-height: 1.6;
     max-width: 650px;
@@ -264,10 +264,10 @@ footer p {
         justify-content: center;
     }
 
-    main > section:first-child {
-        min-height: 450px;
-        padding: 50px 20px;                
-    }
+  #inicio {
+    min-height: 450px;
+    padding: 50px 20px;
+}
 
     main > section:first-child h2 {
         font-size: 38px;
