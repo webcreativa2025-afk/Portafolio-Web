@@ -331,7 +331,7 @@ footer p {
         font-size: 30px;
     }
 
-    .proyectos > div {
+    .proyecto-card {
     padding: 25px;
     max-width: 320px;
 }
