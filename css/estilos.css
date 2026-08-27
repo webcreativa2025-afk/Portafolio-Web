@@ -86,13 +86,13 @@ main > section:first-child p {
         PROYECTOS
 ========================= */
 
-main > section:nth-child(2) {
+#proyectos {
     padding: 80px 40px;
     text-align: center;
     background-color: #f8fafc;
 }
 
-main > section:nth-child(2) h2 {
+#proyectos h2 {
     font-size: 40px;
     color: #1e3a8a;
     margin: 0 0 40px;
