@@ -357,6 +357,7 @@ footer p {
 .boton-hero {
     width: 100%;
     max-width: 300px;
+    text-align: center;
 }
         
 }
