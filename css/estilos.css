@@ -269,13 +269,13 @@ footer p {
     padding: 50px 20px;
 }
 
-    main > section:first-child h2 {
-        font-size: 38px;
-    }
+    #inicio h2 {
+    font-size: 38px;
+}
 
-    main > section:first-child p {
-        font-size: 18px;
-    }
+    #inicio p {
+    font-size: 18px;
+}
 
     #proyectos {
     padding: 60px 20px;
@@ -309,16 +309,16 @@ footer p {
         font-size: 15px;
     }
 
-    main > section:first-child {
-        min-height: 400px;
-        padding: 40px 15px;
-    }
+    #inicio {
+    min-height: 400px;
+    padding: 40px 15px;
+}
 
-    main > section:first-child h2 {
-        font-size: 30px;
-    }
+   #inicio h2 {
+    font-size: 30px;
+}
 
-    main > section:first-child p {
+#inicio p {
     font-size: 16px;
     line-height: 1.5;
 }
