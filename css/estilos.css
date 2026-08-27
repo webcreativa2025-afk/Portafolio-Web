@@ -138,11 +138,11 @@ main > section:first-child p {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-main > section:nth-child(2) h3 {
+#proyectos h3 {
     font-size: 26px;
     color: #2563eb;
     margin: 0 0 15px;
-}
+}       
 
 main > section:nth-child(2) p {
     color: #555;
