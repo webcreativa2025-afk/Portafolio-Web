@@ -266,7 +266,7 @@ footer p {
 
     main > section:first-child {
         min-height: 450px;
-        padding: 50px 20px;
+        padding: 50px 20px;                
     }
 
     main > section:first-child h2 {
@@ -277,9 +277,9 @@ footer p {
         font-size: 18px;
     }
 
-    main > section:nth-child(2) {
-        padding: 60px 20px;
-    }
+    #proyectos {
+    padding: 60px 20px;
+}
 
     main > section:nth-child(2) h2 {
         font-size: 34px;
