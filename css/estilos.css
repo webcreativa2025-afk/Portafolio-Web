@@ -289,7 +289,7 @@ footer p {
     gap: 30px;
 }
 
-    .proyectos > div {
+    .proyecto-card {
         width: 100%;
         max-width: 450px;
     }
