@@ -133,7 +133,7 @@ main > section:nth-child(2) h2 {
     margin-bottom: 20px;
 }
 
-.proyectos > div:hover {
+.proyecto-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
