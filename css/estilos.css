@@ -128,7 +128,7 @@ nav a:focus {
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
     animation: aparecer 0.8s ease;
 }
 
