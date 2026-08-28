@@ -246,6 +246,11 @@ nav a:focus {
     transform: translateY(-2px);
 }
 
+#contacto a:focus {
+    outline: 2px solid #1e3a8a;
+    outline-offset: 4px;
+}
+
 /* =========================
         FOOTER
 ========================= */
