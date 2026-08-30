@@ -387,7 +387,11 @@ footer p {
     max-width: 300px;
     text-align: center;
 }
-        
+
+footer {
+    padding: 20px 15px;
+}
+
 }
 /* =========================
         DESPLAZAMIENTO SUAVE
