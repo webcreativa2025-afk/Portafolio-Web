@@ -392,6 +392,10 @@ footer {
     padding: 20px 15px;
 }
 
+footer p {
+    font-size: 14px;
+    line-height: 1.5;
+}
 }
 /* =========================
         DESPLAZAMIENTO SUAVE
