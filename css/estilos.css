@@ -354,10 +354,11 @@ footer p {
     font-size: 30px;
 }
 
-    .proyecto-card {
+ .proyecto-card {
     padding: 25px;
     max-width: 320px;
-}
+    min-height: auto;
+ }
 .proyecto-card img {
     height: 160px;
 }        
