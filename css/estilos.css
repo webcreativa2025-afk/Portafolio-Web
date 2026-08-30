@@ -358,7 +358,10 @@ footer p {
     padding: 25px;
     max-width: 320px;
 }
-            #contacto {
+.proyecto-card img {
+    height: 160px;
+}        
+        #contacto {
         padding: 50px 15px;
     }
 
