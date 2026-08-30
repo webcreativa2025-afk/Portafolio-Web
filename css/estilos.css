@@ -191,7 +191,7 @@ nav a:focus {
     color: white;
     text-decoration: none;
     border-radius: 25px;
-    transition: 0.3s;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
     animation: aparecer 0.8s ease;
 }
 
