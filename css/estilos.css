@@ -199,7 +199,7 @@ nav a:focus-visible {
 .boton-hero:hover {
     background-color: #1d4ed8;
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+    box-shadow: 0 8px 18px rgba(37, 99, 235, 0.3);
 }
 
 .boton-hero:focus-visible {
