@@ -244,8 +244,8 @@ nav a:focus-visible {
 
 #contacto a:hover {
     background-color: #1d4ed8;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(37, 99, 235, 0.3);
 }
 
 #contacto a:focus-visible {
