@@ -131,6 +131,7 @@ nav a:focus-visible {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     animation: aparecer 0.8s ease;
+    overflow: hidden;
 }
 
 .proyecto-card img {
