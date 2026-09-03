@@ -77,14 +77,14 @@ nav a:focus-visible {
 #inicio h2 {
     font-size: 48px;
     color: #1e3a8a;
-    margin: 0 0 20px;
+    margin: 0 0 25px;
     max-width: 800px;
 }
 
 #inicio p {
     font-size: 20px;
-    line-height: 1.7;
-    max-width: 650px;
+    line-height: 1.6;
+    max-width: 700px;
     margin: 0;
 }
 
@@ -158,7 +158,7 @@ nav a:focus-visible {
 
 #proyectos p {
     color: #555;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.6;
 }
 
@@ -224,14 +224,14 @@ nav a:focus-visible {
 #contacto h2 {
     font-size: 40px;
     color: #1e3a8a;
-    margin: 0 0 20px;
+    margin: 0 0 25px;
 }
 
 #contacto p {
     font-size: 18px;
     color: #555;
     margin: 0 auto 35px;
-    max-width: 600px;
+    max-width: 650px;
     line-height: 1.6;
 }
 
@@ -290,32 +290,33 @@ footer p {
     nav {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 15px;
     }
 
-  #inicio {
-    min-height: 450px;
-    padding: 50px 20px;
-}
+    #inicio {
+        min-height: 450px;
+        padding: 50px 20px;
+    }
 
     #inicio h2 {
-    font-size: 38px;
-}
+        font-size: 38px;
+    }
 
     #inicio p {
-    font-size: 18px;
-}
+        font-size: 18px;
+    }
 
     #proyectos {
-    padding: 60px 20px;
-}
+        padding: 60px 20px;
+    }
 
     #proyectos h2 {
-    font-size: 34px;
-}
+        font-size: 34px;
+    }
 
-  .proyectos {
-    gap: 30px;
-}
+    .proyectos {
+        gap: 25px;
+    }
 
     .proyecto-card {
         width: 100%;
@@ -330,8 +331,8 @@ footer p {
     }
 
     nav {
-        gap: 10px;
-    }
+    gap: 15px;
+        }
 
     nav a {
         font-size: 15px;
