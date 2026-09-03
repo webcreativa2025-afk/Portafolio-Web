@@ -127,8 +127,8 @@ nav a:focus-visible {
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 30px;
-    border-radius: 15px;
+    padding: 25px;
+    border-radius: 18px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     animation: aparecer 0.8s ease;
@@ -140,7 +140,7 @@ nav a:focus-visible {
     height: 180px;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     transition: transform 0.4s ease;
 }
 
@@ -151,15 +151,15 @@ nav a:focus-visible {
 }
 
 #proyectos h3 {
-    font-size: 26px;
+    font-size: 24px;
     color: #2563eb;
     margin: 0 0 18px;
-}      
+}     
 
 #proyectos p {
     color: #555;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 #proyectos a {
