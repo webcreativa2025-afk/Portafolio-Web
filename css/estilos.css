@@ -34,7 +34,7 @@ header {
 header h1 {
     color: white;
     margin: 0;
-    font-size: 32px;
+    font-size: 34px;
     transition: color 0.3s, transform 0.3s;
 }
 
@@ -107,7 +107,7 @@ nav a:focus-visible {
 .boton-hero {
     display: inline-block;
     margin-top: 35px;
-    padding: 13px 28px;
+    padding: 14px 28px;
     background-color: #2563eb;
     color: white;
     text-decoration: none;
@@ -174,8 +174,8 @@ nav a:focus-visible {
     justify-content: space-between;
     margin: 0 auto;
     padding: 25px;
-    border-radius: 18px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: aparecer 0.8s ease;
     overflow: hidden;
@@ -183,7 +183,7 @@ nav a:focus-visible {
 
 .proyecto-card img {
     width: 100%;
-    height: 190px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 25px;
@@ -191,7 +191,7 @@ nav a:focus-visible {
 }
 
 .proyecto-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-8px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
@@ -219,8 +219,8 @@ nav a:focus-visible {
 
 #proyectos a {
     display: inline-block;
-    margin-top: 10px;
-    padding: 13px 28px;
+    margin-top: 15px;
+    padding: 14px 28px;
     background-color: #2563eb;
     color: white;
     text-decoration: none;
@@ -231,7 +231,7 @@ nav a:focus-visible {
 #proyectos a:hover {
     background-color: #1d4ed8;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.3);
 }
 
 #proyectos a:focus-visible {
@@ -399,15 +399,15 @@ footer p {
 @media (max-width: 480px) {
 
     header h1 {
-        font-size: 26px;
+        font-size: 28px;
     }
 
     nav {
-        gap: 15px;
+        gap: 18px;
     }
 
     nav a {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     #inicio {
@@ -416,30 +416,30 @@ footer p {
     }
 
     #inicio h2 {
-        font-size: 30px;
+        font-size: 32px;
     }
 
     #inicio p {
-        font-size: 16px;
+        font-size: 17px;
         line-height: 1.5;
     }
 
     #proyectos {
-        padding: 50px 15px;
+        padding: 60px 15px;
     }
 
     #proyectos h2 {
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .proyecto-card {
-        padding: 25px;
+        padding: 20px;
         max-width: 320px;
         min-height: auto;
     }
 
     .proyecto-card img {
-        height: 160px;
+        height: 170px;
     }
 
     #contacto {
@@ -447,7 +447,7 @@ footer p {
     }
 
     #contacto h2 {
-        font-size: 30px;
+        font-size: 32px;
     }
 
     #contacto p {
