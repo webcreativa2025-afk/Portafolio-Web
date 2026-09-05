@@ -106,7 +106,7 @@ nav a:focus-visible {
 
 .boton-hero {
     display: inline-block;
-    margin-top: 35px;
+    margin-top: 40px;
     padding: 14px 28px;
     background-color: #2563eb;
     color: white;
@@ -133,15 +133,15 @@ nav a:focus-visible {
 ========================= */
 
 #proyectos {
-    padding: 80px 40px;
+    padding: 90px 40px;
     text-align: center;
     background-color: #f8fafc;
 }
 
 #proyectos h2 {
-    font-size: 40px;
+    font-size: 42px;
     color: #1e3a8a;
-    margin: 0 0 45px;
+    margin: 0 0 50px;
 }
 
 
@@ -165,17 +165,17 @@ nav a:focus-visible {
 
 .proyecto-card {
     background-color: white;
-    border: 1px solid #e5e7eb;
+    border: 2px solid #e5e7eb;
     max-width: 350px;
     width: 100%;
-    min-height: 400px;
+    min-height: 420px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 25px;
+    padding: 28px;
     border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: aparecer 0.8s ease;
     overflow: hidden;
@@ -186,7 +186,7 @@ nav a:focus-visible {
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     transition: transform 0.4s ease;
 }
 
@@ -201,14 +201,14 @@ nav a:focus-visible {
 ========================= */
 
 #proyectos h3 {
-    font-size: 24px;
+    font-size: 26px;
     color: #2563eb;
     margin: 0 0 15px;
 }
 
 #proyectos p {
     color: #555;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.6;
 }
 
@@ -245,19 +245,19 @@ nav a:focus-visible {
 ========================= */
 
 #contacto {
-    padding: 90px 40px;
+    padding: 100px 40px;
     text-align: center;
     background-color: #dbeafe;
 }
 
 #contacto h2 {
-    font-size: 40px;
+    font-size: 42px;
     color: #1e3a8a;
     margin: 0 0 25px;
 }
 
 #contacto p {
-    font-size: 18px;
+    font-size: 19px;
     color: #555;
     margin: 0 auto 35px;
     max-width: 650px;
@@ -271,7 +271,7 @@ nav a:focus-visible {
 
 #contacto a {
     display: inline-block;
-    padding: 13px 28px;
+    padding: 15px 30px;
     background-color: #2563eb;
     color: white;
     text-decoration: none;
@@ -300,13 +300,13 @@ footer {
     background-color: #111827;
     color: white;
     text-align: center;
-    padding: 30px 25px;
+    padding: 35px 25px;
     border-top: 2px solid #2563eb;
 }
 
 footer p {
     margin: 0;
-    font-size: 15px;
+    font-size: 16px;
     color: #d1d5db;
 }
 
