@@ -382,13 +382,16 @@ footer p {
     }
 
     .proyectos {
-        gap: 25px;
+        gap: 35px;
     }
 
     .proyecto-card {
-        width: 100%;
-        max-width: 450px;
+        width: 90%;
+        max-width: 400px;
     }
+    .proyecto-card img {
+        height: 190px;
+}
 
 }
 
@@ -434,7 +437,7 @@ footer p {
     }
 
     .proyecto-card {
-        padding: 20px;
+        padding: 22px;
         max-width: 320px;
         min-height: auto;
     }
