@@ -402,7 +402,11 @@ footer p {
 
 @media (max-width: 480px) {
 
-    header h1 {
+     header {
+        padding: 20px 15px;
+    }   
+        
+     header h1 {
         font-size: 28px;
     }
 
@@ -434,6 +438,7 @@ footer p {
 
     #proyectos h2 {
         font-size: 32px;
+        margin-bottom: 35px;
     }
         
     #proyectos h3 {
@@ -450,7 +455,7 @@ footer p {
     }
 
     .proyecto-card {
-        padding: 22px;
+        padding: 20px;
         max-width: 320px;
         min-height: auto;
         margin: 0 auto;
