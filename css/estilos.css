@@ -439,6 +439,15 @@ footer p {
     #proyectos h3 {
         font-size: 24px;
     }
+        
+    #proyectos p {
+        font-size: 16px;
+    }
+
+    #proyectos a {
+        width: 100%;
+        max-width: 260px;
+    }
 
     .proyecto-card {
         padding: 22px;
