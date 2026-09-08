@@ -86,14 +86,14 @@ nav a:focus-visible {
 }
 
 #inicio h2 {
-    font-size: 50px;
+    font-size: 48px;
     color: #1e3a8a;
     margin: 0 0 25px;
     max-width: 800px;
 }
 
 #inicio p {
-    font-size: 21px;
+    font-size: 20px;
     line-height: 1.6;
     max-width: 700px;
     margin: 0;
@@ -139,7 +139,7 @@ nav a:focus-visible {
 }
 
 #proyectos h2 {
-    font-size: 42px;
+    font-size: 40px;
     color: #1e3a8a;
     margin: 0 0 50px;
 }
@@ -201,14 +201,14 @@ nav a:focus-visible {
 ========================= */
 
 #proyectos h3 {
-    font-size: 26px;
+    font-size: 24px;
     color: #2563eb;
     margin: 0 0 15px;
 }
 
 #proyectos p {
     color: #555;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.6;
 }
 
