@@ -6,19 +6,13 @@ Aquí encontrarás diferentes proyectos de landing pages creados utilizando tecn
 
 ## 🚀 Mis proyectos
 
-### 1. 🏢 Landing Page — Empresa
-
-Sitio web empresarial moderno y responsive.
-
-👉 [Ver proyecto](./landing-pages/landing-01-empresa/)
-
-### 2. 💻 Landing Page — WebStudio
+### 1. 💻 Landing Page — WebStudio
 
 Landing page para una empresa de servicios digitales.
 
 👉 [Ver proyecto](./landing-pages/landing-02-webstudio/)
 
-### 3. 🍝 Landing Page — Sabor & Arte
+### 2. 🍝 Landing Page — Sabor & Arte
 
 Landing page para un restaurante.
 
