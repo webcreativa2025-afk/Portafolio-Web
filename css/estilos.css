@@ -183,7 +183,7 @@ nav a:focus-visible {
 
 .proyecto-card img {
     width: 100%;
-    height: 200px;
+    height: 160px;{
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -442,7 +442,7 @@ footer p {
     }
         
     #proyectos h3 {
-        font-size: 24px;
+        font-size: 15px;
     }
         
     #proyectos p {
@@ -466,15 +466,15 @@ footer p {
     }
 
     #contacto {
-        padding: 50px 15px;
+        padding: 60px 15px;
     }
 
     #contacto h2 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     #contacto p {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 1.5;
     }
 
